@@ -1,0 +1,27 @@
+.button {
+  border-bottom: 2px solid $primary-midnight-green;
+  font-size: $text-font-size;
+  line-height: $text-nav-lh;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+.button:hover {
+  color: $primary-midnight-green;
+  cursor: pointer;
+}
+
+.button-two {
+  border-bottom: 2px solid $primary-midnight-green;
+  font-size: $text-font-size;
+  line-height: $text-nav-lh;
+  padding-bottom: 1rem;
+  font-weight: 700;
+
+}
+.button-two:hover {
+  color: $primary-midnight-green;
+  cursor: pointer;
+  img {
+      opacity: 0.3;
+  }
+}
